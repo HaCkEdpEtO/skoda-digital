@@ -1,23 +1,27 @@
-Príkaz na spustenie úlohy A (súbor check-servers.py)
+<br />
 
-python check-servers.py <server1> <server2> ...
+## How To Run
 
+Task A (file check-servers.py):
 
+- `python check-servers.py <server1> <server2> ...`
 
+<hr />
 
-Príkaz na spustenie úlohy B (súbor receive.py)
+Task B (file receive.py):
 
-python receive.py
+- `python receive.py`
 
-Príkaz na spustenie úlohy B (súbor send.py)
+Task B (file send.py):
 
-python send.py <target_ip> <period_ms>
+- `python send.py <target_ip> <period_ms>`
 
+<hr />
 
+Task C (file findsym.c):
 
+- `gcc -o findsym findsym.c`
 
-Príkaz na spustenie úlohy C (súbor findsym.c)
+- `./findsym /path/to/directory /path/to/target_file`
 
-gcc -o findsym findsym.c
-
-./findsym /path/to/directory /path/to/target_file
+<hr />
